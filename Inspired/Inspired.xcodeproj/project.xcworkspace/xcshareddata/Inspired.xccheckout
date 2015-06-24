@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7B43262-6B29-4A55-88AA-3B328164B7CC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>443CCA25019973369E5B593ADF2479B2E9197B93</key>
+		<string>https://github.com/gellieb/inspired.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Inspired/Inspired.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>443CCA25019973369E5B593ADF2479B2E9197B93</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gellieb/inspired.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>443CCA25019973369E5B593ADF2479B2E9197B93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>443CCA25019973369E5B593ADF2479B2E9197B93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Inspired</string>
+		</dict>
+	</array>
+</dict>
+</plist>
