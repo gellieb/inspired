@@ -21,12 +21,26 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fpA-IP-eHw">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="281"/>
                                         </imageView>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbM-zO-AdW">
+                                            <rect key="frame" x="0.0" y="206" width="600" height="75"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3o1-Cq-ASo">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="75" id="2mZ-Hx-lzT"/>
+                                            </constraints>
+                                            <blurEffect style="light"/>
+                                        </visualEffectView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="sbM-zO-AdW" secondAttribute="trailing" id="6z9-w1-K5g"/>
                                         <constraint firstAttribute="bottom" secondItem="fpA-IP-eHw" secondAttribute="bottom" id="7vD-gP-68g"/>
+                                        <constraint firstItem="sbM-zO-AdW" firstAttribute="leading" secondItem="HPw-qp-ncU" secondAttribute="leading" id="J6w-mK-4x7"/>
                                         <constraint firstItem="fpA-IP-eHw" firstAttribute="leading" secondItem="HPw-qp-ncU" secondAttribute="leading" id="Mv9-uH-lER"/>
                                         <constraint firstAttribute="trailing" secondItem="fpA-IP-eHw" secondAttribute="trailing" id="fNj-Jh-cAk"/>
                                         <constraint firstItem="fpA-IP-eHw" firstAttribute="top" secondItem="HPw-qp-ncU" secondAttribute="top" id="jP8-LG-fm1"/>
+                                        <constraint firstAttribute="bottom" secondItem="sbM-zO-AdW" secondAttribute="bottom" id="q9O-YV-9Ci"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
