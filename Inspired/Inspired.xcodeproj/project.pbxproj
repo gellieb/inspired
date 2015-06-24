@@ -16,6 +16,7 @@
 		23D9B6D41B3B4B1900B23EFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D9B6D21B3B4B1900B23EFA /* LaunchScreen.xib */; };
 		23D9B6E01B3B4B1900B23EFA /* InspiredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9B6DF1B3B4B1900B23EFA /* InspiredTests.swift */; };
 		23D9B6EA1B3B4CDE00B23EFA /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9B6E91B3B4CDE00B23EFA /* Photo.swift */; };
+		23D9B6EC1B3B4F1F00B23EFA /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9B6EB1B3B4F1F00B23EFA /* PhotoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		23D9B6DE1B3B4B1900B23EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D9B6DF1B3B4B1900B23EFA /* InspiredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiredTests.swift; sourceTree = "<group>"; };
 		23D9B6E91B3B4CDE00B23EFA /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		23D9B6EB1B3B4F1F00B23EFA /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
 		47CF89BF210E37945B8E708B /* Pods-Inspired.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inspired.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inspired/Pods-Inspired.debug.xcconfig"; sourceTree = "<group>"; };
 		8D62E4B21CD5B8AECD64C418 /* Pods_Inspired.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inspired.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				23D9B6C81B3B4B1900B23EFA /* Inspired.xcdatamodeld */,
 				23D9B6C41B3B4B1900B23EFA /* Supporting Files */,
 				23D9B6E91B3B4CDE00B23EFA /* Photo.swift */,
+				23D9B6EB1B3B4F1F00B23EFA /* PhotoManager.swift */,
 			);
 			path = Inspired;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				23D9B6EA1B3B4CDE00B23EFA /* Photo.swift in Sources */,
 				23D9B6CC1B3B4B1900B23EFA /* ViewController.swift in Sources */,
 				23D9B6C71B3B4B1900B23EFA /* AppDelegate.swift in Sources */,
+				23D9B6EC1B3B4F1F00B23EFA /* PhotoManager.swift in Sources */,
 				23D9B6CA1B3B4B1900B23EFA /* Inspired.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

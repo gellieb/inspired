@@ -30,10 +30,4 @@ class Photo: NSObject{
         self.highest_Rating = data["highest_rating"].doubleValue
         self.imageurl = data["image"][0]["url"].stringValue
     }
-    
-    
-    
-    
-    
-    
 }
