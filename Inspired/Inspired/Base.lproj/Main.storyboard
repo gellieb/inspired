@@ -26,6 +26,71 @@
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3o1-Cq-ASo">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gho-PV-IIK">
+                                                        <rect key="frame" x="8" y="8" width="54" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKU-Uy-rzL">
+                                                        <rect key="frame" x="8" y="27" width="20" height="14"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shutter Speed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCF-Dt-9hb">
+                                                        <rect key="frame" x="8" y="46" width="75" height="21"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTb-zk-6ku">
+                                                        <rect key="frame" x="551" y="27" width="41" height="14"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focal Length" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i22-kI-m8R">
+                                                        <rect key="frame" x="476" y="27" width="67" height="14"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7w-Tj-RCU">
+                                                        <rect key="frame" x="36" y="27" width="41" height="14"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4l4-5S-7mT">
+                                                        <rect key="frame" x="108" y="50" width="41" height="14"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lens" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njj-1U-ZKK">
+                                                        <rect key="frame" x="559" y="8" width="33" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="x7w-Tj-RCU" firstAttribute="centerY" secondItem="i22-kI-m8R" secondAttribute="centerY" id="4hr-FG-AhI"/>
+                                                    <constraint firstItem="x7w-Tj-RCU" firstAttribute="leading" secondItem="mKU-Uy-rzL" secondAttribute="trailing" constant="8" id="5xf-m3-V4L"/>
+                                                    <constraint firstItem="x7w-Tj-RCU" firstAttribute="centerY" secondItem="JTb-zk-6ku" secondAttribute="centerY" id="ASb-i2-kc5"/>
+                                                    <constraint firstItem="x7w-Tj-RCU" firstAttribute="centerY" secondItem="mKU-Uy-rzL" secondAttribute="centerY" id="Gb8-jP-Bp3"/>
+                                                    <constraint firstItem="JTb-zk-6ku" firstAttribute="top" secondItem="3o1-Cq-ASo" secondAttribute="top" constant="27" id="Gkh-Pq-cF5"/>
+                                                    <constraint firstAttribute="trailing" secondItem="njj-1U-ZKK" secondAttribute="trailing" constant="8" id="HAn-y3-hzO"/>
+                                                    <constraint firstItem="njj-1U-ZKK" firstAttribute="top" secondItem="3o1-Cq-ASo" secondAttribute="top" constant="8" id="K4i-If-qOw"/>
+                                                    <constraint firstAttribute="trailing" secondItem="JTb-zk-6ku" secondAttribute="trailing" constant="8" id="KaX-sq-VBO"/>
+                                                    <constraint firstItem="gho-PV-IIK" firstAttribute="leading" secondItem="3o1-Cq-ASo" secondAttribute="leading" constant="8" id="NHo-h2-rN6"/>
+                                                    <constraint firstAttribute="bottom" secondItem="VCF-Dt-9hb" secondAttribute="bottom" constant="8" id="PBG-HD-ZIj"/>
+                                                    <constraint firstItem="VCF-Dt-9hb" firstAttribute="top" secondItem="x7w-Tj-RCU" secondAttribute="bottom" constant="5" id="cye-vP-kKl"/>
+                                                    <constraint firstItem="4l4-5S-7mT" firstAttribute="centerY" secondItem="VCF-Dt-9hb" secondAttribute="centerY" id="ddf-TG-eXQ"/>
+                                                    <constraint firstItem="JTb-zk-6ku" firstAttribute="leading" secondItem="i22-kI-m8R" secondAttribute="trailing" constant="8" id="eNV-pd-qjg"/>
+                                                    <constraint firstItem="4l4-5S-7mT" firstAttribute="leading" secondItem="VCF-Dt-9hb" secondAttribute="trailing" constant="25" id="iJf-42-3Xi"/>
+                                                    <constraint firstItem="VCF-Dt-9hb" firstAttribute="leading" secondItem="3o1-Cq-ASo" secondAttribute="leading" constant="8" id="jjq-t3-ftc"/>
+                                                    <constraint firstItem="gho-PV-IIK" firstAttribute="top" secondItem="3o1-Cq-ASo" secondAttribute="top" constant="8" id="oaP-rQ-bWn"/>
+                                                    <constraint firstItem="mKU-Uy-rzL" firstAttribute="top" secondItem="3o1-Cq-ASo" secondAttribute="top" constant="27" id="r6T-9v-SsG"/>
+                                                    <constraint firstItem="mKU-Uy-rzL" firstAttribute="leading" secondItem="3o1-Cq-ASo" secondAttribute="leading" constant="8" id="s6f-hJ-H7Y"/>
+                                                </constraints>
                                             </view>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="75" id="2mZ-Hx-lzT"/>
@@ -43,6 +108,16 @@
                                         <constraint firstAttribute="bottom" secondItem="sbM-zO-AdW" secondAttribute="bottom" id="q9O-YV-9Ci"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Camera" destination="gho-PV-IIK" id="SS3-rz-Ga2"/>
+                                    <outlet property="blurView" destination="sbM-zO-AdW" id="Now-Dh-651"/>
+                                    <outlet property="focalLength" destination="i22-kI-m8R" id="FYW-B0-zTd"/>
+                                    <outlet property="iso" destination="mKU-Uy-rzL" id="mmJ-tG-rKD"/>
+                                    <outlet property="lens" destination="njj-1U-ZKK" id="u3h-Zq-m1Y"/>
+                                    <outlet property="postImage" destination="fpA-IP-eHw" id="qjC-tf-ik7"/>
+                                    <outlet property="postImageView" destination="HPw-qp-ncU" id="axk-da-CVQ"/>
+                                    <outlet property="shutterSpeed" destination="VCF-Dt-9hb" id="jtO-9e-xHk"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

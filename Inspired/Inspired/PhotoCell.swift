@@ -10,6 +10,17 @@ import UIKit
 
 class PhotoCell: UITableViewCell {
 
+    @IBOutlet weak var postImage: UIImageView!
+    @IBOutlet weak var Camera: UILabel!
+    @IBOutlet weak var blurView: UIVisualEffectView!
+    @IBOutlet weak var iso: UILabel!
+    @IBOutlet weak var shutterSpeed: UILabel!
+    @IBOutlet weak var lens: UILabel!
+    @IBOutlet weak var focalLength: UILabel!
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
