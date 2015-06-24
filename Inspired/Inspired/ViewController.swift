@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let manager: PhotoManager = PhotoManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        manager.getPhotos(["only":"Landscapes", "image_size":"4"], completion: {(photos, error) -> () in
+            for photo in photos {
+                println("\(photo.name!)")
+                println("\(photo.imageurl!)")
+            }
+        })
     }
 
     override func didReceiveMemoryWarning() {
