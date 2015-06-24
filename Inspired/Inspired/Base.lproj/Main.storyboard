@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Ch-9V-Nqn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NfC-8H-84r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -8,15 +8,26 @@
         <scene sceneID="190-tn-JE0">
             <objects>
                 <tableViewController id="0Ch-9V-Nqn" customClass="PhotoFeedController" customModule="Inspired" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dm4-uL-4qM">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="282" sectionHeaderHeight="22" sectionFooterHeight="22" id="dm4-uL-4qM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ZfV-g8-bGh" customClass="PhotoCell" customModule="Inspired" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="282" id="ZfV-g8-bGh" customClass="PhotoCell" customModule="Inspired" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZfV-g8-bGh" id="HPw-qp-ncU">
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fpA-IP-eHw">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="281"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="fpA-IP-eHw" secondAttribute="bottom" id="7vD-gP-68g"/>
+                                        <constraint firstItem="fpA-IP-eHw" firstAttribute="leading" secondItem="HPw-qp-ncU" secondAttribute="leading" id="Mv9-uH-lER"/>
+                                        <constraint firstAttribute="trailing" secondItem="fpA-IP-eHw" secondAttribute="trailing" id="fNj-Jh-cAk"/>
+                                        <constraint firstItem="fpA-IP-eHw" firstAttribute="top" secondItem="HPw-qp-ncU" secondAttribute="top" id="jP8-LG-fm1"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -25,8 +36,27 @@
                             <outlet property="delegate" destination="0Ch-9V-Nqn" id="EMm-aa-M4v"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="yci-CZ-DO6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfR-UN-cdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1232" y="213"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bHR-qo-Fdb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NfC-8H-84r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xhY-v4-lho">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Ch-9V-Nqn" kind="relationship" relationship="rootViewController" id="eji-17-224"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w2b-s8-e09" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="420" y="213"/>
         </scene>
